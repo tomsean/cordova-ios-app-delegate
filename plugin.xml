@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-ios-app-delegate"
+        version="0.0.1">
+
+  <name>Toast</name>
+
+  <description>
+
+  </description>
+
+  <author>Tommy zhang</author>
+
+  <license>MIT</license>
+
+  <keywords> </keywords>
+
+  <repo>https://github.com/EddyVerbruggen/cordova-ios-app-delegate.git</repo>
+
+  <issue>https://github.com/EddyVerbruggen/cordova-ios-app-delegate/issues</issue>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+  <!-- ios -->
+  <platform name="ios">
+    <header-file src="src/ios/AppDelegate+notification.h"/>
+    <source-file src="src/ios/AppDelegate+notification.m"/>
+  </platform>
+</plugin>
